@@ -44,7 +44,7 @@ class TipCalculatorViewController: UIViewController,UITextFieldDelegate
         updateUI()
     }
     func updateUI(){
-        totalResultLabel.text = String( format: "0.00", tipCalculator.totalAmount)
+        totalResultLabel.text = String( format: "$%0.2f", tipCalculator.totalAmount)
         let numberOfPeople: Int = Int (numberOfPeopleSlider.value)
         eachPersonAmountLabel.text = String(format: "$&0.2f", tipCalculator.totalAmount / Double(numberOfPeople))
     }
