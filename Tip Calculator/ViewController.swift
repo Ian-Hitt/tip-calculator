@@ -2,7 +2,7 @@
 //  ViewController.swift
 //  Tip Calculator
 //
-//  Created by Alan Getty on 3/24/20.
+//  Created by Ian Hitt on 3/24/20.
 //  Copyright © 2020 Adam Page. All rights reserved.
 //
 
