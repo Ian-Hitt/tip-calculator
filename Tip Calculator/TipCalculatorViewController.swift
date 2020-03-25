@@ -2,7 +2,7 @@
 //  TipCalculatorViewController.swift
 //  Tip Calculator
 //
-//  Created by Alan Getty on 3/24/20.
+//  Created by Adam Page on 3/24/20.
 //  Copyright © 2020 Adam Page. All rights reserved.
 //
 
@@ -44,7 +44,7 @@ class TipCalculatorViewController: UIViewController,UITextFieldDelegate
         updateUI()
     }
     func updateUI(){
-        totalResultLabel.text = String( format: "$%0.2f", tipCalculator.totalAmount)
+        totalResultLabel.text = String( format: "0.00", tipCalculator.totalAmount)
         let numberOfPeople: Int = Int (numberOfPeopleSlider.value)
         eachPersonAmountLabel.text = String(format: "$&0.2f", tipCalculator.totalAmount / Double(numberOfPeople))
     }
